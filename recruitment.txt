@@ -1,0 +1,7 @@
+import chardet
+import streamlit as st
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+import os
